@@ -1,0 +1,418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"numbe",
+				"number\tindex.js"
+			],
+			[
+				"rout",
+				"routeTo\tJSX attribute"
+			],
+			[
+				"med",
+				"@media\t@media ${1:screen} {\n\t${0}\n}"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"top",
+				"topOffset\tconst"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"c",
+				"classes\tJSX attribute"
+			],
+			[
+				"use",
+				"useRef\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 128,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".flowconfig",
+			"settings":
+			{
+				"buffer_size": 107,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"flow",
+				"Build With: Flow"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"sub",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Sub",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"flo",
+				"FlowType: Check Contents"
+			],
+			[
+				"Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Flow",
+				"FlowType: Add Pragma"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pai",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: New Build System"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: linsta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: linte",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Emmet",
+				"Toggle Comment"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"Install Package",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Taras/AppData/Roaming/Sublime Text 3/Packages/User/FlowType.sublime-settings",
+		"/C/Users/Taras/Documents/GiftSmile/backend/giftsmile.sublime-project",
+		"/C/Users/Taras/AppData/Roaming/Sublime Text 3/Packages/FlowType/FlowType.sublime-settings",
+		"/C/Users/Taras/Documents/GiftSmile/backend/src/index.js",
+		"/C/Users/Taras/Documents/test.sublime-project",
+		"/C/Users/Taras/Documents/GiftSmile/backend/.flowconfig",
+		"/C/Users/Taras/Documents/flow-node-boilerplate-master/src/index.js",
+		"/C/Users/Taras/Documents/flow-node-boilerplate-master/src/node-api-example.js",
+		"/C/Users/Taras/Documents/flow-node-boilerplate-master/package.json",
+		"/C/Users/Taras/Documents/GiftSmile/backend/package.json",
+		"/C/Users/Taras/Documents/GiftSmile/backend/src/test.js",
+		"/C/Users/Taras/Documents/frontend/src/components/ContactsPartnership/ContactsPartnership.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ContactsPartnership/ContactsPartnership.tsx",
+		"/C/Users/Taras/Documents/frontend/src/components/ButtonEllipse/ButtonEllipse.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ProgramPage/ProgramClientStories/ProgramClientStories.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ProgramPage/ProgramIntro/ProgramIntro.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ModuleChapterCard/ModuleChapterCard.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ProgramPage/ProgramClientStories/ProgramClientStories.tsx",
+		"/C/Users/Taras/Documents/frontend/src/components/ProgramPage/ProgramPageEnroll/ProgramPageEnroll.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/CoursePartnership/partials/PartnershipIntro.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/ProgramPage/ProgramIntro/ProgramIntro.tsx",
+		"/C/Users/Taras/Documents/frontend/src/styles/_common.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/AcademicPartnershipPage/AcademicPartnershipPage.tsx",
+		"/C/Users/Taras/Documents/frontend/src/components/EducationProcessPage/EducationFormat/EducationFormat.scss",
+		"/C/Users/Taras/Documents/frontend/src/components/EducationProcessPage/EducationProcessIntro/EducationProcessIntro.scss",
+		"/C/Users/Taras/Documents/frontend/package.json",
+		"/D/Taras/config-for-gulp/app/js/common.js",
+		"/D/Taras/config-for-gulp/node_modules/liftoff/lib/find_config.js",
+		"/D/Taras/config-for-gulp/app/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+								"SL.flow.Highlights.|e7523c4e699f3df36be6fc52e83f20817ffed1502b7c1d9506fa70de8faadc7d|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flow.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"SL.14.region_keys":
+							[
+								"SL.flow.Highlights.|e7523c4e699f3df36be6fc52e83f20817ffed1502b7c1d9506fa70de8faadc7d|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flow.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"SL.19.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".flowconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 133.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 28.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 310.0
+	},
+	"output.find_results":
+	{
+		"height": 229.0
+	},
+	"pinned_build_system": "Packages/Flow/Flow.sublime-build",
+	"project": "giftsmile.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"find",
+				"node_modules\\liftoff\\lib\\find_config.js"
+			],
+			[
+				"",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

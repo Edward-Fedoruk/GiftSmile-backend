@@ -1,0 +1,25 @@
+{
+  "name": "flow-node-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for Nodejs projects without Babel",
+  "main": "lib/index.js",
+  "scripts": {
+    "flow": "flow",
+    "flow:coverage": "flow-coverage-report --config .flowcoverage.json",
+    "flow:build": "flow-remove-types ./src -d ./lib --all --pretty",
+    "flow:check": "flow check ./src",
+    "flow:deps": "flow-typed install",
+    "dev": "watch --wait=1 \"npm run flow:build\" ./src/ & nodemon ./lib/",
+    "start": "npm run flow:build && node ./lib/"
+  },
+  "author": "asci@yandex.ru",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.108.0",
+    "flow-coverage-report": "^0.6.1",
+    "flow-remove-types": "^2.108.0",
+    "flow-typed": "^2.6.1",
+    "nodemon": "^1.19.2",
+    "watch": "^1.0.2"
+  }
+}
