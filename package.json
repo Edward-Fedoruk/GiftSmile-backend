@@ -4,26 +4,34 @@
   "description": "Boilerplate for Nodejs projects without Babel",
   "main": "lib/index.js",
   "scripts": {
-    "flow": "flow",
-    "flow:coverage": "flow-coverage-report --config .flowcoverage.json",
-    "flow:build": "flow-remove-types ./src -d ./lib --all --pretty",
-    "flow:check": "flow check ./src",
-    "flow:deps": "flow-typed install",
-    "dev": "watch --wait=1 \"npm run flow:build\" ./src/ & nodemon ./lib/",
-    "start": "npm run flow:build && node ./lib/"
+    "start": "nodemon ./src/server.js"
   },
   "author": "asci@yandex.ru",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
     "flow-bin": "^0.108.0",
     "flow-coverage-report": "^0.6.1",
     "flow-remove-types": "^2.108.0",
     "flow-typed": "^2.6.1",
     "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "node-postgres": "0.0.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "ramda": "^0.26.1",
+    "sequelize": "^5.19.6"
   }
 }
